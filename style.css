@@ -157,12 +157,107 @@ span{
     font-size: 15px;
 }
 
-@media screen and (min-width: 360px){
+@media screen and (max-width: 360px) {
+    .profile img{
+        height: 15%;
+        position: absolute;
+        left: 75%;
+        margin-bottom: 20px;
+        border-radius: 50%;
+        margin-top: 60px;
+    }
+
+    .content-container > p {
+        font-size: 7px;
+    }
+
+    .project img{
+        height: 60px;
+        margin-left: 50px;
+        margin-top:50px;
+        border-radius: 10%;
+    }
+
+    .content2{
+        padding-left: 70px;
+        padding-top: 40px;
+        font-size: 10px;
+    }
+
+    .content3{
+        padding-left: 250px;
+        font-size: 10px;
+        padding-top: 5px;
+    }
+
+    .portofolio{
+        margin-top: 20px;
+        text-align: center;
+        font-size: 10px;
+    }
+
+    .gambar img{
+        margin-left: 60px;
+        margin-top: 50px;
+        height: 15%;
+    }
+
+    .content4{
+        padding-left: 40px;
+        padding-top: 20px;
+        font-size: 7px;
+    }
+
+    .contact{
+        margin-top: 20px;
+        text-align: center;
+        font-size: 7px;
+    }
+
+    .about{
+        margin-top: 20px;
+        text-align: center;
+        font-size: 5px;
+    }
+
+    .logo{
+        float: left;
+        height: 50px;
+    }
+
+    nav ul li a{
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        font-size: 5px;
+    }
+
+    .detel h1{
+        font-size:20px;
+        color: #212121;
+        margin-bottom:20px;
+    }
+
+    .detel p{
+        color: #555;
+        line-height: 10px;
+        font-size: 10px;
+    }
+
+    .images img{
+        height: 20%;
+        position: absolute;
+        left: 20%;
+        bottom: 0;
+        transform: translateX(-50%);
+        transition: bottom 1s, left 1s;
+       
+    }
 }
 
-@media screen and (max-width: 600px) {
+@media (min-width:361px) and (max-width:720px){
     .topnav a {
-      float: none;
-      width: 100%;
-    }
-  }
+        float: none;
+        width: 100%;
+      }
+}
